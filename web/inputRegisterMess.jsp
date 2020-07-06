@@ -7,11 +7,11 @@
 --%>
 <%@ page contentType="text/html;charset=GB2312" %>
 <jsp:useBean id="userBean" class="mybean.data.Register" scope="request"/>
-<HEAD><%@ include file="head.jsp" %></HEAD>
+<head><%@ include file="head.jsp" %></head>
 <title>注册页面</title>
-<HTML><Font size=2>
+<html><Font size=2>
     <div align="center">
-        <FORM action="registerServlet" method="post" name=form>
+        <form action="registerServlet" method="post" name=form>
             <table>
                 用户名由字母、数字、下划线构成，*注释的项必须填写。
                 <tr><td>*用户名称:</td><td><Input type=text name="logname" ></td>
@@ -28,4 +28,4 @@
     </div >
     <div align="center">
     </div>
-</HTML>
+</html>

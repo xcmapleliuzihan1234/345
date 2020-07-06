@@ -6,12 +6,12 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=GB2312" %>
-<HTML> <BODY>
-<HEAD><%@ include file="head.jsp" %></HEAD>
+<html> <body>
+<head><%@ include file="head.jsp" %></head>
 <title>首页</title>
-<CENTER> <h1><font Size=4 color=blue>
+<center> <h1><font Size=4 color=blue>
     欢迎来到“王者荣耀”
 </font></h1>
     <img src="image/timg.jpg" ></img>
-</CENTER>
-</BODY></HTML>
+</center>
+</body></html>
